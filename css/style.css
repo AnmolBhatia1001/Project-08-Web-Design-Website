@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.container{
+    height: 100%;
+    margin: 30px 111px;
+}
+
+.backover-img{
+    z-index: -2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 650px;
+}
+
+.intro-img{
+    position: absolute;
+    top: 74px;
+    right: 45px;
+    /* height: 88%; */
+    height: 575px;
+}
+
+.container,
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-section ,
+.header-section > *,
+.main-section > *{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo{
+    height: 30px;
+}
+
+.nav-item{
+    text-decoration: none;
+    margin: 5px 15px;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 900;
+
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #965CF2, #FF8ADC );
+    color: white;
+    font-size: 10px;
+    padding: 5px 20px;
+}
+
+.main-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: 100px;
+    /* width: 400px; */
+    /* position: relative; */
+}
+
+.main-section > *{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.heading{
+    color: #3E4794;
+    font-size: 55px;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.sub-heading{
+    width: 250px;
+}
+
+.sub-heading{
+    color: #3E4794;
+    font-size: 11px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.learn-more-btn{
+    font-size: 25px;
+    font-family: "Fredoka One";
+    font-weight: 300;
+}
+
+/* .border{
+    border: 1px solid black;
+} */
+
+.vecotr-img{
+    position: absolute;
+    right: 550px;
+    top: 450px;
+    height: 90px;
+}
+.vecotr-dot-img{
+    position: absolute;
+    right: 570px;
+    top: 450px;
+    height: 17px;
+}
