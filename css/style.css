@@ -30,6 +30,7 @@ body{
     right: 45px;
     /* height: 88%; */
     height: 575px;
+    z-index: -1;
 }
 
 .container,
